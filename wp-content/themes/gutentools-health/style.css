@@ -1,0 +1,41 @@
+/*
+Theme Name: Gutentools Health
+Theme URI: https://themegrove.com/products/gutentools-starter/gutentools-health/
+Author: Themegrove
+Author URI: https://themegrove.com/
+Description: Gutentools Health is a versatile and user-friendly Full Site Editing (FSE) WordPress theme designed specifically for health-focused websites such as clinics, hospitals, wellness centers, and medical professionals. Featuring a clean layout, modern design, and full support for Gutenberg blocks, it enables users to create professional, responsive, and lightweight websites without any coding. The theme is fully customizable, making it easy to showcase services, staff profiles, patient testimonials, appointment bookings, and health resources. Whether you're an individual practitioner or a large healthcare institution, Gutentools Health provides a flexible, SEO-optimized foundation for building an engaging and trustworthy online presence. Demo: https://demos.gutentools.com/block-demos/gutentools-health/
+Template: gutentools-starter
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: gutentools-health
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+
+@media screen and (max-width: 768px) {
+
+  .responsive-spacing {
+    padding: 40px 20px !important;
+  }
+
+  .title-spacing {
+    margin-bottom: 20px !important;
+  }
+
+  .ge-banner{
+    min-height: unset !important;
+  }
+
+  .banner-left{
+    display: none;
+  }
+
+  .responsive-cover{
+    min-height: 300px !important;
+  }
+
+}

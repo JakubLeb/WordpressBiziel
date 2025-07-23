@@ -23,6 +23,8 @@ do_action( 'zakra_action_doctype' );
 ?>
 
 	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 
 		<?php
 		/**
@@ -41,6 +43,8 @@ do_action( 'zakra_action_doctype' );
 	</head>
 
 <body <?php body_class(); ?>>
+
+
 
 <?php
 /**

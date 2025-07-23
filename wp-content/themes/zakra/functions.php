@@ -317,3 +317,4 @@ function dodaj_fontawesome() {
     wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' );
 }
 add_action( 'wp_enqueue_scripts', 'dodaj_fontawesome' );
+
